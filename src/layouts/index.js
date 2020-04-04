@@ -1,0 +1,1 @@
+export { default as rootLayout } from "./rootLayout/rootLayout";

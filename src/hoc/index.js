@@ -1,0 +1,1 @@
+export { default as WithErrorBoundary } from "./withErrorBoundary/withErrorBoundary";

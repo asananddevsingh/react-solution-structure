@@ -1,0 +1,13 @@
+.LanguageContainer{
+    margin: 10px;
+}
+
+  .Language{
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Language.Active{
+    font-weight: 700;
+}

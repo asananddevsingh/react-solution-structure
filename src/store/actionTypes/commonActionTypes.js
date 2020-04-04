@@ -1,0 +1,7 @@
+const commonActionTypes = {
+    ON_ASYNC_REQUEST: "ON_ASYNC_REQUEST",
+    ON_ASYNC_RESPONSE_SUCCESS: "ON_ASYNC_RESPONSE_SUCCESS",
+    ON_ASYNC_RESPONSE_FAILURE: "ON_ASYNC_RESPONSE_FAILURE",
+}
+
+export default commonActionTypes;

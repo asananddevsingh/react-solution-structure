@@ -1,0 +1,19 @@
+{
+    "common": {
+        "WELCOME": "Willkommen bei React JS",
+        "COUNTER": "Zähler",
+        "CALCULATOR": "Rechner",
+        "ERROR_BOUNDARY": "Fehlergrenze",
+        "ERROR_LOADING_MODULE": "Fehler: beim Laden des Moduls",
+        "THROW_ERROR": "Klicken Sie auf mich, um einen Fehler auszulösen!",
+        "NO_PAGE": "Keine Seite",
+        "NO_PAGE_FOUND": "Ups! Keine Seite gefunden."
+    },
+    "counter": {
+        "INCREMENT": "Zuwachs",
+        "DECREMENT": "Dekrement",
+        "ASYNC_ADDITION_5_WITH_LOADER": "Async Zusatz 5 mit Loader",
+        "ASYNC_ADDITION_5_TAKE_EVERY": "Async Zusatz 5 (takeEvery)",
+        "ASYNC_SUBSTRACTION_5_TAKE_LATEST": "Async Subtraktion 5 (takeLatest)"
+    }
+}

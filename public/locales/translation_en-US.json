@@ -1,0 +1,20 @@
+{
+    "common": {
+        "WELCOME": "Welcome to React JS",
+        "COUNTER": "Counter",
+        "CALCULATOR": "Calculator",
+        "ERROR_BOUNDARY": "Error Boundary ",
+        "ERROR_LOADING_MODULE": "Error: Loading Module",
+        "THROW_ERROR": "Click Me To Throw Error!",
+        "NO_PAGE": "No Page",
+        "NO_PAGE_FOUND": "Oops! No Page Found.",
+        "COMPONENT_LIFE_CYCLE": "Component Life Cycle"
+    },
+    "counter": {
+        "INCREMENT": "Increment",
+        "DECREMENT": "Decrement",
+        "ASYNC_ADDITION_5_WITH_LOADER": "Async Addition 5 with loader",
+        "ASYNC_ADDITION_5_TAKE_EVERY": "Async Addition 5 (takeEvery)",
+        "ASYNC_SUBSTRACTION_5_TAKE_LATEST": "Async Substraction 5 (takeLatest)"
+    }
+}

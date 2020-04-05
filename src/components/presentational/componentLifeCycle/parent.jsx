@@ -1,5 +1,6 @@
-import React from "react"
+import React from "react";
 import Child from "./child";
+import GrandChild from "./grandChild";
 
 class Parent extends React.Component {
     constructor(props) {
@@ -45,12 +46,12 @@ class Parent extends React.Component {
     render() {
         console.log("%c[Parent] => RENDER", "color:green; font-weight:bold;");
         return (
-            <div style={{ border: "2px solid green", margin: "10px", padding: "10px" }}>
-                <h1>Open console to see the results</h1>
+            <div style={{ border: "2px solid green", margin: "10px" }}>
+                <h3>Open console to see the results</h3>
                 <h4>I'm Parent</h4>
                 <div>Value from Parent State => {this.state.value}</div>
                 <button onClick={this.updateState} >Update Parent State</button>
-                <Child parentStateValue={this.state.value} />
+                <Child parentStateValue={this.state.value} emptyObject={{}} />
             </div>
         )
     }

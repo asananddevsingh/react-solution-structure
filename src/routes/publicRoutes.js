@@ -1,36 +1,41 @@
-import { CounterContainer } from "../containers";
-import { Calculator, BuggyButton, NoPageFound, Parent } from "../components";
+import {
+    CounterModule,
+    CalculatorModule,
+    BuggyButtonModule,
+    NoPageFoundModule,
+    ComponentLifeCycleModule
+} from "../modules";
 
 const publicRoutes = [
     {
         key: "counterDefault",
-        component: CounterContainer,
+        component: CounterModule,
         path: "/",
         exact: true,
     },
     {
         key: "counterWithRoute",
-        component: CounterContainer,
+        component: CounterModule,
         path: "/counter",
     },
     {
         key: "calculator",
-        component: Calculator,
+        component: CalculatorModule,
         path: "/calculator",
     },
     {
         key: "buggyButton",
-        component: BuggyButton,
+        component: BuggyButtonModule,
         path: "/buggy-button",
     },
     {
         key: "componentLifeCycle",
         path: "/component-life-cycle",
-        component: Parent,
+        component: ComponentLifeCycleModule,
     },
     {
         key: "noPageFound",
-        component: NoPageFound,
+        component: NoPageFoundModule,
     },
 ];
 

@@ -7,7 +7,8 @@
         "ERROR_LOADING_MODULE": "Fehler: beim Laden des Moduls",
         "THROW_ERROR": "Klicken Sie auf mich, um einen Fehler auszulösen!",
         "NO_PAGE": "Keine Seite",
-        "NO_PAGE_FOUND": "Ups! Keine Seite gefunden."
+        "NO_PAGE_FOUND": "Ups! Keine Seite gefunden.",
+        "LOADING": "Wird geladen..."
     },
     "counter": {
         "INCREMENT": "Zuwachs",

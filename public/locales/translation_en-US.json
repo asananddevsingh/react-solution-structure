@@ -8,7 +8,8 @@
         "THROW_ERROR": "Click Me To Throw Error!",
         "NO_PAGE": "No Page",
         "NO_PAGE_FOUND": "Oops! No Page Found.",
-        "COMPONENT_LIFE_CYCLE": "Component Life Cycle"
+        "COMPONENT_LIFE_CYCLE": "Component Life Cycle",
+        "LOADING": "Loading..."
     },
     "counter": {
         "INCREMENT": "Increment",

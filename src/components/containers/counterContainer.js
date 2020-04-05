@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
-import { Counter } from "../components";
-import { counterActions } from "../store/actions";
+import Counter from "../presentational/counter/counter";
+import { counterActions } from "../../store/actions";
 
 const mapStateToProps = (state) => {
     return {

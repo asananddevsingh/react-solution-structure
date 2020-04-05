@@ -1,9 +1,9 @@
 import React from "react";
-import { commonConstants } from "../../constants";
-import LoaderIcon from "../../assets/icons/loader.gif";
+import { commonConstants } from "../../../constants";
+import LoaderIcon from "../../../assets/icons/loader.gif";
 import { withTranslation } from 'react-i18next';
 
-const counter = (props) => {
+const Counter = (props) => {
     const { t } = props;
 
     return (
@@ -33,4 +33,4 @@ const counter = (props) => {
     )
 }
 
-export default withTranslation()(counter);
+export default withTranslation()(Counter);

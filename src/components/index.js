@@ -1,6 +1,14 @@
-export { default as Counter } from "./counter/counter";
-export { default as Calculator } from "./calculator/calculator";
-export { default as BuggyButton } from "./buggyButton/buggyButton";
-export { default as Languages } from "./languages/languages";
-export { default as NoPageFound } from "./noPageFound/noPageFound";
-export { default as Parent } from "./componentLifeCycle/parent";
+/**
+ * Container Components
+ */
+export { default as Counter } from "./containers/counterContainer";
+
+
+/**
+ * Presentational Components
+ */
+export { default as Calculator } from "./presentational/calculator/calculator";
+export { default as BuggyButton } from "./presentational/buggyButton/buggyButton";
+export { default as Languages } from "./presentational/languages/languages";
+export { default as NoPageFound } from "./presentational/noPageFound/noPageFound";
+export { default as ComponentLifeCycle } from "./presentational/componentLifeCycle/parent";
